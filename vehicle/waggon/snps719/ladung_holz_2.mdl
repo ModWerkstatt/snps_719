@@ -1,0 +1,67 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 8.90016841888427734375, -1.2999999523162841796875, 2.3906710147857666015625, },
+			bbMin = { -8.90016841888427734375, 1.2999999523162841796875, -0.0000045192791731096804141998291015625, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 8.90016841888427734375, 6.6236400604248046875, 1.195337772369384765625, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/holz.mtl", },
+							mesh = "msh/holz_lang2_lod0.msh",
+							name = "holz_lang2",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.4199999868869781494140625, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 147.9348602294921875,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/holz.mtl", },
+							mesh = "msh/holz_lang2_lod1.msh",
+							name = "holz_lang2",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.4199999868869781494140625, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 147.9348602294921875,
+				visibleTo = 443.804595947265625,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/holz.mtl", },
+							mesh = "msh/holz_lang2_lod2.msh",
+							name = "holz_lang2",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.4199999868869781494140625, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 443.804595947265625,
+				visibleTo = 1331.413818359375,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end

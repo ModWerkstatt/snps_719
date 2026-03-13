@@ -1,0 +1,67 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 3.2000000476837158203125, -1.34000003337860107421875, 2.3906710147857666015625, },
+			bbMin = { -3.2000000476837158203125, 1.34000003337860107421875, -0.0000045192791731096804141998291015625, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 8.90016841888427734375, 6.6236400604248046875, 1.195337772369384765625, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/baumaterial.mtl", },
+							mesh = "msh/baumterial4_lod0.msh",
+							name = "baumterial",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 70,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/baumaterial.mtl", },
+							mesh = "msh/baumterial4_lod1.msh",
+							name = "baumterial",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 70,
+				visibleTo = 300,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/baumaterial.mtl", },
+							mesh = "msh/baumterial4_lod2.msh",
+							name = "baumterial",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 300,
+				visibleTo = 2000,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end

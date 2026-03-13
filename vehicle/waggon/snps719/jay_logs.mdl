@@ -1,0 +1,35 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { -5.755605220794677734375, 1.37173855304718017578125, 3.847316741943359375, },
+			bbMin = { -10.765956878662109375, -1.36739456653594970703125, 1.3402612209320068359375, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 2.5051758289337158203125, 1.36956655979156494140625, 1.25352776050567626953125, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/jay_holz.mtl", },
+							mesh = "msh/jay_woods_lod0.msh",
+							name = "jay_woods",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 723.0596923828125,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end

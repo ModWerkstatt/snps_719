@@ -1,0 +1,35 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 9.22000026702880859375, -1.2000000476837158203125, 2.0903472900390625, },
+			bbMin = { -9.22000026702880859375, 1.2000000476837158203125, 0.020999014377593994140625, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 10.0982036590576171875, 1.26190948486328125, 1.034674167633056640625, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/stahl.mtl", },
+							mesh = "msh/ladung_stahl1_lod0.msh",
+							name = "ladung_stahl1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 2481.735107421875,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end

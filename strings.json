@@ -1,0 +1,36 @@
+{
+	"en": {
+			
+      "menu_snps719" : "Snps 719",
+		
+      "fake": "Fake - ",
+		
+      "fake_snps719" : "Enable Fake Versions?",
+      "tooltip_fake_snps719" : "Should the fake versions be available in the game?",
+		
+		"snps_719_axbenet" : "Snps 719 blue Axbenet",
+		"snps_719_db_1980" : "Snps 719 reddish brown DB",
+		"snps_719_db_1994" : "Snps 719 reddish brown DBAG",
+		"snps_719_sbb" : "Snps 719 gray SBB",
+		"snps_719_sbb_alt" : "Snps 719 gray SBB - aged",		
+		"snps719_desc" : "The Snps (719) is a 4-axle flat wagon with bogies and fixed, two-metre-high double stanchions, which was specially designed for transporting logs, sawn timber, steel profiles and pipes. A total of 1,960 wagons were produced in series between 1980 and 1984. The stanchions are equipped with lashing devices, while the floor consists of walk-on perforated plates and wooden loading sleepers. From 1998, around 700 wagons were fitted with laminated wooden slats to protect the load and were subsequently registered as Snps-x 719. There are currently 593 Snps-x and 1,364 Snps 719 in the DB AG fleet. Between 1992 and 1994, Cattaneo delivered a series of 100 similar wagons to the SBB, which differed from the DB wagons only in minor details."
+
+	},
+	"de": {
+		
+      "menu_snps719" : "Snps 719",
+		
+      "fake": "Fake - ",
+		
+      "fake_snps719" : "Fake-Versionen aktivieren?",
+      "tooltip_fake_snps719" : "Sollen die Fake-Versionen verfügbar sein im Spiel?",
+		
+		"snps_719_axbenet" : "Snps 719 blau Axbenet",
+		"snps_719_db_1980" : "Snps 719 rotbraun DB",
+		"snps_719_db_1994" : "Snps 719 rotbraun DBAG",
+		"snps_sbb" : "Snps 719 grau SBB",
+		"snps_sbb_alt" : "Snps 719 grau SBB - gealtert",		
+		"snps719_desc" : "Der Snps (719) ist ein 4-achsiger Flachwagen mit Drehgestellen und festen, zwei Meter hohen Doppelrungen, der speziell für den Transport von Stammholz, Schnittholz, Stahlprofilen und Rohren konzipiert wurde. Zwischen 1980 und 1984 wurden insgesamt 1.960 Wagen in Serie gefertigt. Die Rungen sind mit Verzurrvorrichtungen ausgestattet, während der Boden aus begehbaren Lochblechen und hölzernen Ladeschwellen besteht. Ab 1998 erhielten etwa 700 Wagen Schichtholzleisten zum Schutz der Ladung und wurden anschließend als Snps-x 719 geführt. Derzeit befinden sich 593 Snps-x und 1.364 Snps 719 im Bestand der DB AG. Zwischen 1992 und 1994 lieferte Cattaneo eine Serie von 100 ähnlichen Wagen an die SBB, die sich nur in kleinen Details von den DB-Wagen unterscheiden."
+
+	}
+}

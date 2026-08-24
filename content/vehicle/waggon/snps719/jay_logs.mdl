@@ -16,9 +16,9 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/jay_holz.mtl", },
-							mesh = "msh/jay_woods_lod0.msh",
-							name = "jay_woods",
+							materials = { "mat/holz.mtl", },
+							mesh = "msh/woods_lod0.msh",
+							name = "woods",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},

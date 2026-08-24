@@ -17,8 +17,8 @@ return {
 					children = {
 						{ 
 							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
-							mesh = "msh/jay_mesh_gurt_lod0.msh",
-							name = "jay_mesh_gurt",
+							mesh = "msh/gurt_lod0.msh",
+							name = "gurt",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},

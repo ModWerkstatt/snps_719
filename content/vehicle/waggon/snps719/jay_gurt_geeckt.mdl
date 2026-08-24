@@ -17,8 +17,8 @@ return {
 					children = {
 						{ 
 							materials = { "mat/stahl.mtl", },
-							mesh = "msh/jay_gurt_geeckt_lod0.msh",
-							name = "jay_gurt_geeckt",
+							mesh = "msh/gurt_geeckt_lod0.msh",
+							name = "gurt_geeckt",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},

@@ -472,7 +472,7 @@ return {
 				},
 			},
 			landVehicle = { 
-				brakeDeceleration = 2.5,
+				brakeDeceleration = 0.6,
 				engines = { },
 				friction = 0.0199999995529651641845703125,
 				topSpeed = 33.299999237060546875,
@@ -869,7 +869,7 @@ return {
 				},
 			},
 			transformatorConfig = { 
-				skipFromLod = 1,
+				skipFromLod = 3,
 				transformator = { 
 					name = "::/vehicle/train/shared/default_train.trf",
 				},
